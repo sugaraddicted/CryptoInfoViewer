@@ -12,5 +12,6 @@ namespace CryptoInfoViewer.MVVM.Model
         public long TotalVolume { get; set; }
         public decimal PriceChange24h { get; set; }    
         public decimal PriceChangePercentage24h { get; set; }
+        public List<MarketModel> Markets { get; set; }
     }
 }
